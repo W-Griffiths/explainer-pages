@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Explainers</title>
+<style>
+:root { --bg: #f7f7f4; --ink: #12211f; --muted: #6f7a78; --line: #e3e7e4; --accent: #00716c; }
+@media (prefers-color-scheme: dark) { :root { --bg: #111615; --ink: #e8eeec; --muted: #93a09d; --line: #26302e; --accent: #4fd1c9; } }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.5 system-ui, sans-serif; }
+main { max-width: 680px; margin: 0 auto; padding: 64px 16px; }
+h1 { margin: 0 0 4px; font-size: 32px; }
+p { margin: 0 0 32px; color: var(--muted); }
+h2 { margin: 32px 0 8px; font-size: 13px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+ul { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+li { border-bottom: 1px solid var(--line); }
+a { display: flex; justify-content: space-between; gap: 16px; padding: 12px 0; color: var(--ink); text-decoration: none; }
+a:hover b { color: var(--accent); }
+a span { color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Explainers</h1>
+  <p>Short pages on how and why we build the way we do.</p>
+
+  <h2>Pages</h2>
+  <ul>
+    <li><a href="future-software.html"><b>Building for the future</b><span>Modern software, built to last</span></a></li>
+    <li><a href="open-source.html"><b>Open source software</b><span>Why open source</span></a></li>
+  </ul>
+
+  <h2>Design explorations</h2>
+  <ul>
+    <li><a href="modern-software-v21a.html"><b>Building for the future</b><span>Hermes</span></a></li>
+    <li><a href="modern-software-v21e.html"><b>Building for the future</b><span>Signal</span></a></li>
+    <li><a href="modern-software-v22b.html"><b>Building for the future</b><span>Mission Control</span></a></li>
+    <li><a href="modern-software-v22e.html"><b>Building for the future</b><span>Kinetic</span></a></li>
+  </ul>
+</main>
+</body>
+</html>
